@@ -1,0 +1,19 @@
+.projects-banner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(#21bdd6 ,#50428c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    
+    
+}
+
+.banner-header {
+    font-size: 10vw;
+    color: white;
+    font-family: 'Courgette', cursive;
+    
+}
+

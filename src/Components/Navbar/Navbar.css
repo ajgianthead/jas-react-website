@@ -1,0 +1,130 @@
+.navbar-container {     /* ul */
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100vw;
+    height: 9vh;
+    font-size: 1em;
+    color: #50428c;
+    overflow: hidden;
+ 
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  background-color: white;
+    
+}
+
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.nav-item{
+    font-size: 17px;
+    transition: font-size .5s ease, color .5s ease ;
+    padding: 10px;
+    color: #50428c;
+}
+.menu-item{
+    font-size: 20px;
+    transition: font-size .5s ease, color .5s ease ;
+    padding: 10px;
+    color: #50428c;
+}
+
+.times{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 2em;
+  
+}
+
+.icon-menu{
+  color: #50428c;
+  cursor: pointer;
+}
+
+.menu-item:hover{
+    font-size: 22px;
+    color: #21bdd6;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    font-size: 18px;
+    color: #21bdd6;
+    text-decoration: none;
+    
+}
+
+
+
+.logo {
+    height: 60px;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  z-index: 10;
+
+  
+    
+}
+
+.menu {
+  font-size: 2em;
+  display: none;
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+      .nav-item {
+        display: none;
+        
+      }
+      .logo {
+        display: flex;
+        margin-left: 90px;
+        /* margin-right: 60px; */
+        z-index: 10;
+        
+        
+      }
+      .menu {
+        font-size: 2em;
+        display: block;
+        z-index: 10;
+       margin-left: 30px;
+       cursor: pointer;
+        
+      }
+
+     .navbar-container {
+       z-index: 10;
+       background-color: white;
+       justify-content: flex-start;
+     }
+     
+      
+}
+
+
+

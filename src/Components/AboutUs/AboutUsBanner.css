@@ -1,0 +1,70 @@
+.about-us-banner {
+    margin-top: 100px;
+    
+    background: linear-gradient(#21bdd6 ,#50428c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.about-us-banner-white {
+    margin-top: 5em;
+    
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+    margin-bottom: 200px;
+    
+}
+
+.banner-header-white {
+    color: #50428c;
+    font-size: 3rem;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    
+}
+
+.banner-body-white {
+    color: #50428c;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.banner-body-white-1{
+    color: #50428c;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.banner-body-reg {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.about-us-banner-reg {
+    margin-top: 50px;
+    
+    background: linear-gradient(#21bdd6 ,#50428c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    flex-direction: column;
+}
+
+.banner-header-reg {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+.current-projects-container{
+    display: flex;
+    
+    
+    
+    flex-direction: column;
+    
+    
+    
+}
+.past-projects-container{
+    display: flex;
+    
+    
+    
+    flex-direction: column;
+    
+    
+    
+}
+
+.section-1 {
+    
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+
+}
+.section-1 h2 {
+    font-size: 4vw;
+}
+
+.section-2 {
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+@media only screen and (max-width: 600px) {
+    .section-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    color: aqua;
+    border-radius: 50px;
+    margin: 10px  2px 10px 2px;
+    transition: transform ease .4s;
+    border: solid 2px #50428c;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.summary {
+    color: #50428c;
+}
+
+.card-pic {
+    height: 50%;
+    background-color: brown;
+    background: url(./sft-logo.jpg) center;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border: solid 2px #50428c;
+    border-top-right-radius: 30px;
+}
+.card-text {
+    height: 50%;
+    color: #50428c;
+    font-family: "Roboto", sans-serif;
+    border: solid 2px #50428c;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px;
+    
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.card-text p {
+    font-size: 15px;
+}

@@ -1,0 +1,73 @@
+.samsung-solve {
+    display: flex;
+    height: 40vh;
+    width: 80vw;
+    background:linear-gradient( #9cdcf8,#27aae1);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    transition: transform .2s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+.samsung-solve:hover {
+    transform: scale(1.1);
+    
+}
+
+.science-fair {
+    display: flex;
+    background: linear-gradient(#f59f33, #d72268);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    height: 40vh;
+    width: 80vw;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    transition: transform .2s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+}
+
+.science-fair:hover {
+    transform: scale(1.1);
+}
+
+.imagine-cup {
+    display: flex;
+    height: 40vh;
+    width: 80vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background: linear-gradient(#b075d9,#8a34c9);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    transition: transform .2s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+
+}
+
+.imagine-cup:hover {
+    transform: scale(1.1);
+}
+
+
+
